@@ -1,22 +1,160 @@
 <xml>
-    <table name="table_name" records="20">
+    <table name="marmitometro_fake_data" records="1000000">
         <field name="field_auto_increment" type="auto_increment" min_val="1"/>
-        <field name="field_integer" type="integer" min_val="1" max_val="100"/>
-        <field name="field_varchar" type="varchar" min_len="10" max_len="30"/>
-        <field name="field_float" type="float" min_val="1" max_val="100"/>
-        <field name="field_bool" type="bool"/>
-        <field name="field_select_int" type="select" type_value="integer">
-            <option value="10"/>
-            <option value="20"/>
-            <option value="30"/>
+        <field name="local" type="select" type_value="varchar">
+            <option value="Mordomia"/>
+            <option value="Mr. Lenz"/>
+            <option value="Marli"/>
+            <option value="Sal Restaurante"/>
+            <option value="Marmitinha do Estag"/>
         </field>
-        <field name="field_select_varchar" type="select" type_value="varchar">
-            <option value="value1"/>
-            <option value="value2"/>
-            <option value="value3"/>
+        <field name="Valor" type="select" type_value="varchar">
+            <option value="12,00"/>
+            <option value="13,00"/>
+            <option value="15,00"/>
+            <option value="25,00"/>
         </field>
-        <field name="field_fixed_varchar" type="fixed" type_value="varchar" value="fixed_value"/>
-        <field name="field_fixed_int" type="fixed" type_value="integer" value="10"/>
-        <field name="field_date" type="date" format="%Y-%m-%d %H:%M" min_val="2010-01-01 00:00" max_val="2015-01-01 23:59"/>
+        <field name="Tele" type="select" type_value="varchar">
+            <option value="Sim mas tem que pagar"/>
+            <option value="Sim e de graça"/>
+            <option value="Não"/>
+        </field>
+        <field name="Da pra ir a pé?" type="select" type_value="varchar">
+            <option value="Sim"/>
+            <option value="Não"/>
+            <option value="Não sei onde fica"/>
+            <option value="O estagiário busca"/>
+        </field>
+        <field name="Sabor" type="select" type_value="varchar">
+            <option value="Nunca mais como aqui"/>
+            <option value="Comida do estagiário"/>
+            <option value="Dá pro gasto"/>
+            <option value="Gostosinha"/>
+            <option value="Gostosa demais"/>
+        </field>
+        <field name="Quantidade" type="select" type_value="varchar">
+            <option value="Faltou"/>
+            <option value="Buxin chei"/>
+            <option value="Não aguento mais"/>
+        </field>
+        <field name="Variedade" type="select" type_value="varchar">
+            <option value="Mínimo esperado"/>
+            <option value="Surpreso"/>
+            <option value="O que é isso?"/>
+        </field>
+        <field name="Salada Separada" type="select" type_value="varchar">
+            <option value="Sim"/>
+            <option value="Não"/>
+        </field>
+        <field name="Molho" type="select" type_value="varchar">
+            <option value="Sim"/>
+            <option value="Não"/>
+            <option value="Que delicia"/>
+        </field>
+        <field name="Gordura" type="select" type_value="varchar">
+            <option value="Fritado na banha do peixe"/>
+            <option value="Aceitável"/>
+            <option value="Nem percebi"/>
+        </field>
+        <field name="Tipo de cheiro na sala" type="select" type_value="varchar">
+            <option value="Asa"/>
+            <option value="Restaurante de rodoviária"/>
+            <option value="Saboroso"/>
+            <option value="Sem cheiro"/>
+        </field>
+        <field name="Embalagem" type="select" type_value="varchar">
+            <option value="Aluminio"/>
+            <option value="Isopor"/>
+        </field>
+        <field name="Repetir?" type="select" type_value="varchar">
+            <option value="Nunca mais"/>
+            <option value="Não"/>
+            <option value="Claro"/>
+            <option value="Em última hipótese"/>
+            <option value="Pro resto da vida"/>
+        </field>
+        <field name="Dia da semana" type="select" type_value="varchar">
+            <option value="Segunda-feira"/>
+            <option value="Terça-feira"/>
+            <option value="Quarta-feira"/>
+            <option value="Quinta-feira"/>
+            <option value="Sexta-feira"/>
+        </field>
+        <field name="Aceita cartão" type="select" type_value="varchar">
+            <option value="Sim"/>
+            <option value="Não"/>
+            <option value="Sim e refeição"/>
+        </field>
+        <field name="Sobremesa" type="select" type_value="varchar">
+            <option value="Não"/>
+            <option value="Sim mas não deveria vir de tão ruim"/>
+            <option value="Sim e gostosinha"/>
+        </field>
+        <field name="Pontualidade" type="select" type_value="varchar">
+            <option value="Antes do esperado"/>
+            <option value="Na hora exata"/>
+            <option value="Atrasou"/>
+        </field>
+        <field name="Avaliador" type="select" type_value="varchar">
+            <option value="Estagiário"/>
+            <option value="Burguês Safado"/>
+            <option value="Anon"/>
+            <option value="Novato"/>
+        </field>
+        <field name="Carne" type="select" type_value="varchar">
+            <option value="Carne de gato"/>
+            <option value="No ponto"/>
+            <option value="Mal passada"/>
+            <option value="Carvão"/>
+            <option value="Fritinha"/>
+            <option value="Empanada"/>
+            <option value="Que carne?"/>
+        </field>
+        <field name="Feijão" type="select" type_value="varchar">
+            <option value="Seco"/>
+            <option value="Que que é isso?"/>
+            <option value="Com bastante caldinho"/>
+            <option value="Gostoso demais"/>
+        </field>
+        <field name="Arroz" type="select" type_value="varchar">
+            <option value="Soltinho"/>
+            <option value="Unidos venceremos"/>
+            <option value="Al dente"/>
+        </field>
+        <field name="Massa" type="select" type_value="varchar">
+            <option value="Polenta"/>
+            <option value="Sem graça"/>
+            <option value="Consigo fazer"/>
+            <option value="Parece a da mãe"/>
+        </field>
+        <field name="Predominancia" type="select" type_value="varchar">
+            <option value="Arroz"/>
+            <option value="Carne"/>
+            <option value="Feijão"/>
+            <option value="Massa"/>
+            <option value="Salada"/>
+        </field>
+        <field name="Velocidade do atendimento" type="select" type_value="varchar">
+            <option value="Demora pra cacete"/>
+            <option value="Aceitável"/>
+            <option value="Mais rápido que relampago marquinhos"/>
+        </field>
+        <field name="Atendimento via" type="select" type_value="varchar">
+            <option value="Whatsapp"/>
+            <option value="Ifood"/>
+            <option value="Delivery Much"/>
+            <option value="Sistema próprio"/>
+            <option value="Presencial"/>
+        </field>
+        <field name="Cartão fidelidade" type="select" type_value="varchar">
+            <option value="Sim"/>
+            <option value="Não"/>
+        </field>
+        <field name="Acompanhamento" type="select" type_value="varchar">
+            <option value="Sim"/>
+            <option value="Não"/>
+            <option value="Sim, da até pra escolher"/>
+            <option value="Sim, pagando mais"/>
+        </field>
     </table>
 </xml>
