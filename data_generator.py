@@ -33,7 +33,8 @@ import random
 import sys
 import time
 from xml.dom import minidom
-
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 VERSION = "0.1.0"
 
